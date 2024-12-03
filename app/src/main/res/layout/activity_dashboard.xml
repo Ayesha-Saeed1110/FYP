@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context=".MainActivity"
+    android:background="#ffffff"
+    >
+
+
+
+    <ImageView
+        android:id="@+id/text1"
+        android:layout_width="170dp"
+        android:layout_height="160dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="-2dp"
+        android:background="@drawable/header" />
+
+
+    <LinearLayout
+        android:layout_width="354dp"
+        android:layout_height="170dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="413dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+
+            android:layout_width="154dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="431dp"
+            android:backgroundTint="#ffffff"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:src="@drawable/one" />
+
+        <ImageButton
+
+            android:layout_width="154dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#ffffff"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:src="@drawable/two" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="354dp"
+        android:layout_height="170dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="180dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/btnthree"
+            android:layout_width="154dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#ffffff"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:src="@drawable/three" />
+
+        <ImageButton
+            android:id="@+id/btnfour"
+            android:layout_width="154dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="431dp"
+            android:backgroundTint="#ffffff"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:src="@drawable/four" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="55dp"
+        android:background="@drawable/rounded_edittextone"
+        android:backgroundTint="#0D1D78"
+        android:text="Log Out"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </Button>
+
+    <TextView
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="371dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="326dp"
+        android:paddingStart="0dp"
+        android:paddingRight="20dp"
+        android:text="Real Time Monitoring"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="371dp"
+        android:layout_marginEnd="-26dp"
+        android:layout_marginBottom="325dp"
+        android:paddingStart="0dp"
+        android:paddingRight="20dp"
+        android:text="Parking Reservation"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="598dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="99dp"
+        android:paddingStart="0dp"
+        android:paddingRight="20dp"
+        android:text="Online Payment"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="-94dp"
+        android:layout_marginBottom="97dp"
+        android:paddingStart="0dp"
+        android:paddingRight="20dp"
+        android:text="User Feedback"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="585dp"
+        android:paddingStart="0dp"
+        android:paddingRight="20dp"
+        android:text="Let's get started!"
+        android:textColor="#000000"
+        android:textSize="26dp"
+        android:textStyle="bold">
+
+    </TextView>
+</RelativeLayout>
